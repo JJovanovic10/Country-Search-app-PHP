@@ -1,0 +1,11 @@
+{
+    "require": {
+        "twig/twig": "^3.6",
+        "phpoffice/phpspreadsheet": "^1.29"
+    },
+    "autoload": {
+        "psr-4": {
+          "MyNamespace\\": "src/"
+        }
+    }
+}

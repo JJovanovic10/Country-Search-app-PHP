@@ -1,0 +1,201 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html 
+{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.flex-container 
+{
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.statusMessage
+{
+  font-size: larger;
+  font-weight: bold;
+}
+form 
+{
+  margin-top: 20px;
+  background-color: #8fe0f54d;
+  border: 10px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+header,
+form {
+  margin-bottom: 20px;
+  
+}
+
+header {
+  border-bottom: 1px solid #000;
+}
+
+
+input,
+button {
+  padding: 0.5rem;
+}
+
+input 
+{
+  margin-bottom: 0.5rem;
+  margin: 10px;
+  font-size: 1rem;
+}
+
+button 
+{
+  margin: 5px;
+  box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #174578 5%, #1c305d 100%);
+	background-color:#2e466e;
+	border-radius:6px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:5px 5px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+  
+}
+
+button:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+.update {
+  margin-bottom: 0.25rem;
+}
+
+.red {
+  background: orangered;
+}
+
+
+.topnav {
+  
+  background-color: rgba(37, 34, 34, 0.5);
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+
+.topnav a 
+{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active 
+{
+  float:left;
+  color: white;
+}
+
+
+.topnav a:hover 
+{
+  background-color: rgb(255, 255, 255,0.5);
+  color: black;
+}
+
+
+footer 
+{
+  background-color: rgba(37, 34, 34, 0.5);
+  padding: 20px;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+
+h2
+{
+  margin-bottom: 50px;
+}
+
+select
+{
+  width: 100px;
+  margin: 10px;
+}
+
+body
+{
+  background-image: url(../images/background3.jpg);
+  background-size: cover;
+}
+
+.error
+{
+  margin-top: 20px;
+}
+.fa-solid, .fas
+{
+  margin-top: 10px;
+}
+
+.pomoc
+{
+  margin: 100px;
+}
+
+select,input
+{
+  background-color: #8fe0f54d;
+  border: 1px solid black;
+}
+
+footer a
+{
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+footer a:hover 
+{
+  background-color: rgb(255, 255, 255,0.5); 
+  color: black;
+}
